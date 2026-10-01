@@ -37,9 +37,9 @@ const technologies = [
 
 const faq = [
   {
-    question: "Le diagnostic + soin découvert à 29€ comprend quoi ?",
+    question: "Le diagnostic + soin découverte à 29€ comprend quoi ?",
     answer:
-      "Un diagnostic de peau détaillé avec i-Diag / i-Probe, puis un soin découvert LIFT4 pour tester la technologie adaptée à votre peau.",
+      "Un diagnostic de peau détaillé avec i-Diag / i-Probe, puis un soin découverte LIFT4 pour tester la technologie adaptée à votre peau.",
   },
   {
     question: "Qu’est-ce que i-Diag ?",
@@ -179,7 +179,7 @@ export default function Home() {
       zones: selectedZones,
       center: CITY_NAME,
       center_display_name: `${CENTER_NAME} ${CITY_NAME}`,
-      offer: "LIFT4 diagnostic + soin découvert 29€ au lieu de 109€",
+      offer: "LIFT4 diagnostic + soin découverte 29€ au lieu de 109€",
       page: `LIFT4 ${CENTER_NAME} ${CITY_NAME}`,
       source: "jfg-clinic-pelissanne",
       submitted_at: new Date().toISOString(),
@@ -216,7 +216,7 @@ export default function Home() {
       <section className="hero-section" aria-labelledby="page-title">
         <div className="hero-copy">
           <p className="eyebrow">Offre à durée limitée · LIFT4</p>
-          <h1 id="page-title">Diagnostic + soin découvert 29€</h1>
+          <h1 id="page-title">Diagnostic + soin découverte 29€</h1>
           <p className="hero-subtitle">
             Technique révolutionnaire pour des résultats visibles dès la 1ʳᵉ
             séance !
@@ -258,7 +258,7 @@ export default function Home() {
         <section className="quiz-panel" aria-labelledby="zone-question">
           <div>
             <p className="offer-ready">
-              Votre diagnostic + soin découvert à 29€ est presque prêt
+              Votre diagnostic + soin découverte à 29€ est presque prêt
             </p>
             <p className="step-label">
               2 étapes pour réserver LIFT4 · places limitées
@@ -309,10 +309,10 @@ export default function Home() {
           >
             Retour
           </button>
-          <p className="offer-ready">Dernière étape pour le soin découvert à 29€</p>
+          <p className="offer-ready">Dernière étape pour le soin découverte à 29€</p>
           <p className="step-label">On vous rappelle pour réserver</p>
           <h2 id="form-title">
-            Vos coordonnées pour le diagnostic + soin découvert LIFT4.
+            Vos coordonnées pour le diagnostic + soin découverte LIFT4.
           </h2>
 
           <form className="lead-form" onSubmit={submitLead}>
@@ -384,7 +384,7 @@ export default function Home() {
           <h2 id="thanks-title">Merci, votre demande est bien prise en compte.</h2>
           <p>
             L&apos;équipe JFG Clinic à Pélissanne vous rappelle rapidement pour
-            confirmer votre diagnostic i-Diag + soin découvert LIFT4 à 29€.
+            confirmer votre diagnostic i-Diag + soin découverte LIFT4 à 29€.
           </p>
         </section>
       )}

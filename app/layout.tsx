@@ -6,7 +6,7 @@ const META_PIXEL_ID = process.env.NEXT_PUBLIC_META_PIXEL_ID;
 export const metadata: Metadata = {
   title: "JFG Clinic Pélissanne - LIFT4 diagnostic + soin 29€",
   description:
-    "LIFT4 à JFG Clinic Pélissanne. Diagnostic i-Diag + soin découvert 29€ au lieu de 109€. Résultat dès la 1re séance.",
+    "LIFT4 à JFG Clinic Pélissanne. Diagnostic i-Diag + soin découverte 29€ au lieu de 109€. Résultat dès la 1re séance.",
   icons: {
     icon: "/favicon.svg",
     shortcut: "/favicon.svg",
