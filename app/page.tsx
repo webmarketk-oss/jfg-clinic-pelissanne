@@ -404,11 +404,34 @@ export default function Home() {
 
       {step === "thanks" && (
         <section className="thanks-panel" aria-labelledby="thanks-title">
+          <div className="thanks-check" aria-hidden="true">
+            ✓
+          </div>
           <p className="step-label">Demande reçue</p>
-          <h2 id="thanks-title">Merci, votre demande est bien prise en compte.</h2>
+          <h2 id="thanks-title">Toute notre équipe vous remercie !</h2>
+          <div className="thanks-urgency" role="status">
+            <strong>Derniers créneaux disponibles !</strong>
+            <p>
+              Les places sont limitées chaque semaine. Réservez votre
+              diagnostic + soin découverte à 29€ avant qu&apos;il ne soit trop
+              tard.
+            </p>
+          </div>
+          <a
+            className="booking-action"
+            href="https://calendar.app.google/7LUEHfC5MUMHsv8aA"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            Je réserve mon créneau
+          </a>
+          <p className="thanks-booking-note">
+            Réservation simple et rapide via Google Agenda
+          </p>
           <p>
-            L&apos;équipe JFG Clinic à Pélissanne vous rappelle rapidement pour
-            confirmer votre diagnostic i-Diag + soin découverte LIFT4 à 29€.
+            Nous avons bien reçu votre demande pour votre diagnostic i-Diag +
+            soin découverte à 29€ à JFG Clinic Pélissanne. Notre équipe
+            prendra contact avec vous très rapidement.
           </p>
         </section>
       )}
@@ -467,4 +490,5 @@ export default function Home() {
     </main>
   );
 }
+
 
